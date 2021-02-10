@@ -1,0 +1,10 @@
+1612977035157	geckodriver	INFO	Listening on 127.0.0.1:41395
+1612977036122	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile2Ts89K"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612977038382	Marionette	INFO	Listening on port 36897
+1612977038479	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612977038494	Marionette	ERROR	[15] No reply from Marionette:Register
+1612977039954	Marionette	INFO	Stopped listening on port 36897
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
